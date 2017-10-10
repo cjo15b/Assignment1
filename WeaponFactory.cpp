@@ -34,5 +34,9 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     if(name.compare("axe") == 0){
         return new SimpleAxe();
     }
+    
+    if(name.compare("Crazy Random Sword")== 0){
+        return new CrazyRandomSword();
+    }
     throw "Invalid weapon";
 }
