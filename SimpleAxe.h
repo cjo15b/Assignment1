@@ -5,6 +5,8 @@
  *
  */
 
+//define behavior of Simple Axe, hitPoints = 60.0 (ignores armor if armor is greater than 0 and less than 20.
+
 #include <string>
 #include "Weapon.h"
 
