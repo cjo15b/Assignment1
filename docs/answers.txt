@@ -1,0 +1,30 @@
+(a) On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+(b) 9 commits. I used "git shortlog" command to see who made commits and how many.
+
+(c) modified last on Wed Sep 27 16:03:55 2017. I used git log to get this information.
+
+(d) commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+    commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+(e) One reason for using branches is so that multiple people can work on coding at once. Each person can have their own copy of the 
+master file to work with. A second reason for using branches is to ensure that everyone's code works with eachothers. A programmer 
+working on his branch would be able to pull changes made to the main branch to ensure that their code is functional with the rest of the 
+code.
+
+(f) git log displays a list of all commits made and their messages. 
+git status tells the user if the branch is up-to-date or not, and does not show all commits.
+
+(g) I would use the command git log Weapon.h
+
+(h) I would use the command git log --grep=file to find commits with messages containing the word "file".
+
+(i) Inheritance is an object inheriting it's parent(s) functionality. through inheritance new objects can receive the properties of an
+ already existing object. Polymorphism is a language's ability to interpret objects differently based on the object's properties. In
+ object-oriented programming encapsulation protects data from outside interference. programmers do this so that the data is not used 
+in a way that it was not intended to.
+
+
