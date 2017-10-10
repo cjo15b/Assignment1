@@ -4,6 +4,8 @@
  *
 */
 
+//Simple Axe that ignores armor if armor is less than 20 and greater than or equal to zero.
+
 #include "SimpleAxe.h"
 
 double SimpleAxe::hit(double armor){
