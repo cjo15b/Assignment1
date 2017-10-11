@@ -24,7 +24,14 @@ git status tells the user if the branch is up-to-date or not, and does not show 
 
 (i) Inheritance is an object inheriting it's parent(s) functionality. through inheritance new objects can receive the properties of an
  already existing object. Polymorphism is a language's ability to interpret objects differently based on the object's properties. In
- object-oriented programming encapsulation protects data from outside interference. programmers do this so that the data is not used 
-in a way that it was not intended to.
+ object-oriented programming encapsulation protects data from outside interference. It also binds data and functions into a single object to be used together.
+ programmers do this so that the data is not used in a way that it was not intended to.
+
+(7) The RoleGame is using polymorphism. The compiler is able to interpret the same function for each type
+of weapon differently. for example the compiler is able to recognize the difference between a common sword 
+and a simple axe. While both of these weapons are called used the same function, each one has different
+functionality. The RoleGame also uses encapsulation by binding certain values to a certain weapon. That way
+a specific weapon will always have it's own hitPoints and won't accidently have the hitPoints of another weapon
+(unless it happens by chance through the Crazy Random Sword or someone creates an identical object.)
 
 
